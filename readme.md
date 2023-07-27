@@ -2,8 +2,6 @@
 
 In this guide, we will walk you through the process of dockerizing a project using a Dockerfile. Dockerizing your project allows you to package all the dependencies and configurations required to run your application inside a Docker container, making it portable and reproducible across different environments.
 
-For this guide, we assume you have Docker installed on your system. If not, refer to the [Docker Installation Guide](#docker-installation-guide) for your operating system.
-
 ## Step 1: Docker Installation
 
 ### System Requirements
@@ -48,7 +46,7 @@ After installing Docker Desktop, verify that Docker is running correctly:
    docker --version
    ```
 
-4.
+   ![ss version](/readme-images/vers.png)
 
 ## Step 2: Set Up Your Project
 
@@ -103,7 +101,7 @@ docker build -t w6 .
 Explanation:
 
 - `docker build`: Command to build a Docker image.
-- `-t w6`: Tags the image with the name `my-app-image`.
+- `-t w6`: Tags the image with the name `w6`.
 - `.`: The `.` indicates the current directory, where the `Dockerfile` is located.
 
 This will start the image build process, which may take a while depending on your project's size and dependencies.
@@ -125,6 +123,8 @@ Explanation:
 ## Step 5: Verify the Running Container
 
 Your Docker container should now be running. To verify that your project is running correctly inside the container, open a web browser and navigate to `http://localhost:3002` (or the port you specified in the `docker run` command). You should see your Node.js web application in action.
+
+![ss local](/readme-images/running.png)
 
 ## Conclusion
 
