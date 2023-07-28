@@ -1,6 +1,6 @@
 # Dockerize Project - Step-by-Step Guide
 
-In this guide, we will walk you through the process of dockerizing a project using a Dockerfile. Dockerizing your project allows you to package all the dependencies and configurations required to run your application inside a Docker container, making it portable and reproducible across different environments.
+In this guide, I will walk you through the process of dockerizing a project using a Dockerfile. Dockerizing your project allows you to package all the dependencies and configurations required to run your application inside a Docker container, making it portable and reproducible across different environments.
 
 ## Step 1: Docker Installation
 
