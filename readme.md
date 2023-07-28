@@ -106,6 +106,15 @@ Explanation:
 
 This will start the image build process, which may take a while depending on your project's size and dependencies.
 
+After the build process completes, verify that the Docker images were successfully created by running:
+
+```bash
+docker images
+```
+
+You should see the `w6` image listed in the output.
+
+
 ## Step 5: Run the Docker Container
 
 Once the image is built successfully, you can run a Docker container based on that image. Use the following command:
